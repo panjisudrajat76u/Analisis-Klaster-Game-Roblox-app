@@ -36,7 +36,7 @@ st.markdown("""
 # ---------------------- PAGE CONFIG ----------------------
 st.set_page_config(layout="wide", page_title="Analisis Klaster Roblox")
 st.title("🎮 **Dashboard Analisis Klaster Game Roblox**")
-st.markdown("### Visualisasi interaktif menggunakan K-Means, PCA, Line Chart, dan Ranking Otomatis ✨")
+st.markdown("###"Aplikasi ini melakukan Clustering K-Means pada data game Roblox berdasarkan metrik popularitas, kemudian memvisualisasikan hasilnya menggunakan PCA." ✨")
 
 # ---------------------- SIDEBAR ----------------------
 with st.sidebar:
@@ -161,3 +161,4 @@ st.markdown(f"### Ranking Teratas berdasarkan **{rank_metric}**")
 st.dataframe(ranking_df.style.highlight_max(axis=0, color="yellow"))
 
 st.markdown("</div>", unsafe_allow_html=True)
+
