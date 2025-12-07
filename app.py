@@ -36,7 +36,7 @@ st.markdown("""
 # ---------------------- PAGE CONFIG ----------------------
 st.set_page_config(layout="wide", page_title="Analisis Klaster Roblox")
 st.title("🎮 **Dashboard Analisis Klaster Game Roblox**")
-st.markdown("###"Aplikasi ini melakukan Clustering K-Means pada data game Roblox berdasarkan metrik popularitas, kemudian memvisualisasikan hasilnya menggunakan PCA." ✨")
+st.markdown("### Visualisasi interaktif menggunakan K-Means, PCA, Line Chart, dan Ranking Otomatis ✨")
 
 # ---------------------- SIDEBAR ----------------------
 with st.sidebar:
