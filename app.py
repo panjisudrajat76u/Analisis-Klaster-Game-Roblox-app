@@ -190,7 +190,8 @@ elif menu == "About":
     - Ranking System  
     """)
 
-    st.success("Dibuat oleh: **Papa Shoots** 👑")
+    st.success("Dibuat oleh: **Kelompok 8** 👑")
+
 
 
 
