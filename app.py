@@ -193,3 +193,4 @@ elif menu == "About":
     st.success("Dibuat oleh: **Papa Shoots** 👑")
 
 
+
